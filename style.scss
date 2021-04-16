@@ -270,16 +270,16 @@ a:hover {
     margin-top: 80px;
 }
 
-.row-no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-}
+// .row-no-gutters {
+//     margin-right: 0;
+//     margin-left: 0;
+// }
 
-.row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
-}
+// .row.row-no-gutters > [class^="col-"],
+// .row.row-no-gutters > [class*=" col-"] {
+//     padding-right: 0;
+//     padding-left: 0;
+// }
 
 #bloc-1-hero h1 {
     font-size: 32px;
@@ -661,9 +661,9 @@ p {
     font-weight: 700;
 }
 
-.social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+
+.social-footer {
+    margin-top: 15px;
 }
 
 h2 {
