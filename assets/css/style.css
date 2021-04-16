@@ -27,7 +27,29 @@ a:hover {
 }
 
 .bloc {
+  width: 100%;
+  clear: both;
+  background: 50% 50% no-repeat;
+  padding: 0 50px;
+  background-size: cover;
   position: relative;
+}
+
+.bloc .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bloc-lg {
+  padding: 100px 50px;
+}
+
+.bloc-md {
+  padding: 50px;
+}
+
+.bloc-sm {
+  padding: 20px 50px;
 }
 
 .bg-center,
@@ -333,6 +355,47 @@ a:hover {
   z-index: 2;
 }
 
+@media (min-width: 768px) {
+  .site-navigation {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0, -50%);
+    -webkit-transform: translateY(-50%);
+  }
+  .nav > li .dropdown-menu a,
+  .nav > li .dropdown-menu a:hover {
+    color: #484848;
+  }
+  .nav-invert .site-navigation {
+    left: 0;
+    right: 0;
+  }
+  .nav-center {
+    text-align: center;
+  }
+  .nav-center .navbar-header {
+    width: 100%;
+  }
+  .nav-center .navbar-header,
+  .nav-center .navbar-brand,
+  .nav-center .nav > li {
+    float: none;
+    display: inline-block;
+  }
+  .nav-center .site-navigation {
+    position: relative;
+    width: 100%;
+    right: 0;
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+  .nav-center.mini-nav .navbar-toggle {
+    float: none;
+    margin: 10px auto 0;
+  }
+}
+
 .nav > li > .dropdown a {
   background: none !important;
   display: block;
@@ -467,6 +530,7 @@ a[data-lightbox] {
   position: relative;
   display: block;
   text-align: center;
+  margin-left: 80px;
 }
 
 a[data-lightbox]:hover::before {
@@ -504,7 +568,7 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog {
-  width: auto;
+  width: 90%;
   max-width: 900px;
   margin: 0 auto 0;
 }
@@ -756,7 +820,7 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url(img/la-chouette-agence-banniere.jpg);
+  background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
@@ -824,47 +888,6 @@ h4 {
     padding: 0 20px;
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
-  }
-}
-
-@media (min-width: 768px) {
-  .site-navigation {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translate(0, -50%);
-    -webkit-transform: translateY(-50%);
-  }
-  .nav > li .dropdown-menu a,
-  .nav > li .dropdown-menu a:hover {
-    color: #484848;
-  }
-  .nav-invert .site-navigation {
-    left: 0;
-    right: 0;
-  }
-  .nav-center {
-    text-align: center;
-  }
-  .nav-center .navbar-header {
-    width: 100%;
-  }
-  .nav-center .navbar-header,
-  .nav-center .navbar-brand,
-  .nav-center .nav > li {
-    float: none;
-    display: inline-block;
-  }
-  .nav-center .site-navigation {
-    position: relative;
-    width: 100%;
-    right: 0;
-    margin-right: 0px;
-    margin-top: 20px;
-  }
-  .nav-center.mini-nav .navbar-toggle {
-    float: none;
-    margin: 10px auto 0;
   }
 }
 
@@ -974,9 +997,6 @@ h4 {
     padding-left: 0;
     padding-right: 0;
   }
-  .bg-banniere {
-    background-image: url(img/la-chouette-agence-banniere-xs.jpg);
-  }
   .a-block {
     padding: 0 10px;
   }
@@ -1015,17 +1035,11 @@ h4 {
     padding-left: 0;
     padding-right: 0;
   }
-  .bg-banniere {
-    background-image: url(img/la-chouette-agence-banniere-xs.jpg);
-  }
 }
 
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
-  }
-  .bg-banniere {
-    background-image: url(img/la-chouette-agence-banniere-xs.jpg);
   }
 }
 /*# sourceMappingURL=style.css.map */
