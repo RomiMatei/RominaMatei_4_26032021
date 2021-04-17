@@ -282,7 +282,8 @@ a:hover {
 // }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .navbar {
@@ -440,7 +441,7 @@ button {
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 80px!important;
 }
 
 .sm-shadow {
@@ -639,9 +640,26 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
+.titre {
+    font-size: 25px;
+    margin-top: 15px;
+    padding: 20px;
+    font-weight: bold;
+    color: black!important;
+}
+.titre-xs{
+    font-size: 25px;
+    font-weight: bold;
+    color: black!important;
+}
+
+.p-xs {
+    font-size: 18px;
+
+}
 /* .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -653,7 +671,7 @@ p {
 }
 
 .cta-hero {
-    margin-top: 22px;
+    margin-top: 70px;
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
@@ -669,6 +687,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+
 }
 
 h3 {
@@ -694,9 +713,8 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-
 .white {
-    color: #FFFFFF!important;
+    color: #FFF!important
 }
 
 .portfolio-thumb {
@@ -713,7 +731,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(10, 0, 0);
     padding: 40px 40px 40px 40px;
 }
 
@@ -731,16 +749,21 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #fa5509;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fa5509!important;
+    margin-top: 20px;
+    font-weight: bold;
+   h3{
+        font-weight: bold;
+    }
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #fa5509;
+    color: rgb(10, 0, 0)!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -757,7 +780,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #f3814c!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -767,6 +790,19 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
+}
+
+
+.black {
+    color: rgb(12, 0, 0)!important;
+    font-weight: bold;
+    font-size: 20px;
+}
+.black-footer{
+    color: rgb(12, 0, 0)!important;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 15px;
 }
 
 .bg-dots-bg {
@@ -1030,6 +1066,16 @@ h4 {
         width: 180px;
         height: 320px;
     }
+}
+
+
+.opacity-bg {
+    background-color: #333;
+    opacity: 0.8;
+}
+
+.btn-contact {
+    margin-bottom: 50px;
 }
 
 @media (max-width: 400px) {
